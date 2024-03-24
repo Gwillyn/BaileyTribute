@@ -71,7 +71,7 @@ nav>ul>li {
 }
 
 li>a {
-    
+
     text-decoration: none;
     color: inherit;
 }
@@ -91,26 +91,37 @@ li:hover {
     background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihYSNBB2Cb9xmn8m6hVtoQ_56zJ2XniMpgscjKxDeFtvZDVduZ0DKShwiMXmNJXKqAtoLxqwddt3VSjASp4FAlqkfTGLrA=s1600");
     background-repeat: no-repeat;
     background-size: cover;
-   
+
 }
 
-.images {
-    border: 10px;
-    margin: 20%;
+h2 {
+    text-align: center;
+    background-color: rgb(125, 74, 45);
 }
 
-#img1 {
+#c_img1 {
     display: flex;
-    justify-items: center;
-    border-radius: 20px;
-    max-width: 100%;
-    height: auto;
+    width: 40vw;
 }
+
+
+
+
 
 @media only screen and (min-width: 1350px) {
     .i1 {
-       background-size: 1350px;
-       background-position: center top;
+        background-size: 1350px;
+        background-position: center top;
 
+    }
 }
+
+@media only screen and (max-width: 750px) {
+
+    .i1>h1,
+    .i1>p {
+        margin-top: 25px;
+        margin-bottom: -20px;
+        margin-left: 80px
+    }
 }
