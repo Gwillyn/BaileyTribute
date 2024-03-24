@@ -87,12 +87,11 @@ li:hover {
 
 .i1 {
     height: 100vw;
-    max-height: 100%;
     max-width: 100%;
     background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihYSNBB2Cb9xmn8m6hVtoQ_56zJ2XniMpgscjKxDeFtvZDVduZ0DKShwiMXmNJXKqAtoLxqwddt3VSjASp4FAlqkfTGLrA=s1600");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 0;
+   
 }
 
 .images {
@@ -106,4 +105,12 @@ li:hover {
     border-radius: 20px;
     max-width: 100%;
     height: auto;
+}
+
+@media only screen and (min-width: 1350px) {
+    .i1 {
+       background-size: 1350px;
+       background-position: center top;
+
+}
 }
