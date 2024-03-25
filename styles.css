@@ -9,6 +9,15 @@
     font-weight: 1000;
 }
 
+.background-image>h1 {
+        
+    font-size: 50px;
+
+}
+.background-image>p {
+font-size: 25px;
+}
+
 body {
     background-color: rgb(218, 198, 172);
     min-height: 100vh;
@@ -32,7 +41,7 @@ header {
     height: 63px;
     background-color: black;
     position: sticky;
-    top: 0px;
+    top: 0px
 
 }
 
@@ -112,12 +121,29 @@ h2 {
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1100px) and (min-width: 750px){
+    .background-image>h1,
+    .background-image>p {
+        margin-top: 25px;
+        margin-bottom: -20px;
+        margin-left: 150px;
+}
+}
+
+@media only screen and (max-width: 800px) {
 
     .background-image>h1,
     .background-image>p {
         margin-top: 25px;
         margin-bottom: -20px;
-        margin-left: 80px
+        margin-left: 90px;
+        
+    }
+    .background-image>h1{
+        font-size: 45px;
+    }
+    .background-image>p {
+        font-size: 21px
     }
 }
+
