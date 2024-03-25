@@ -60,7 +60,7 @@ nav>ul>li {
     cursor: pointer;
     letter-spacing: 3px;
     width: 40%;
-    font-size: 4vh;
+    font-size: 4.5vh;
     overflow: hidden;
 
 
@@ -125,6 +125,17 @@ h2 {
         margin-bottom: -20px;
         margin-left: 150px;
 }
+
+}
+
+@media only screen and (max-width: 900px) {
+    nav>ul>li {
+        width: 40%;
+        font-size: 3.2vh;
+    }
+    .divider-large {
+        height: 4.2vh;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -142,5 +153,6 @@ h2 {
     .background-image>p {
         font-size: 21px
     }
+    
 }
 
