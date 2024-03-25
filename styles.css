@@ -60,7 +60,7 @@ nav>ul>li {
     cursor: pointer;
     letter-spacing: 3px;
     width: 35%;
-    font-size: 4.3vh;
+    font-size: 4.2vh;
     overflow: hidden;
 
 
@@ -79,7 +79,7 @@ li:hover {
     background-color: rgb(218, 198, 172);
     color: black;
     cursor: pointer;
-    transform: scale(1.25)
+    transform: scale(1.1)
     
 }
 
