@@ -31,6 +31,8 @@ header {
 .divider-large {
     height: 63px;
     background-color: black;
+    position: sticky;
+    top: 0px;
 
 }
 
