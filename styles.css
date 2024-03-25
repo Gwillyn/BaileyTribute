@@ -35,7 +35,6 @@ header {
     display: flex;
     flex-direction: column;
     max-height: 1000px;
-    overflow: clip;
 }
 
 .divider-large {
@@ -62,7 +61,7 @@ nav>ul>li {
     letter-spacing: 3px;
     width: 40%;
     overflow: hidden;
-    font-size: 4.5vh;
+    font-size: 4.2vh;
 
 
 
@@ -80,7 +79,7 @@ li:hover {
     background-color: rgb(218, 198, 172);
     color: black;
     cursor: pointer;
-    transform: scale(1.1)
+    transform: scale(1.05)
     
 }
 
