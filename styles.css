@@ -52,25 +52,40 @@ nav>ul {
     display: flex;
     justify-content: space-between;
     color: black;
-    background-color: rgb(153, 138, 118);
-    border-radius: 30px;
-    width: 50%;
+    background-color: rgb(218, 198, 172);
+    padding: 10px 15px 12px 15px;
+    border-radius: 60px;
+    width: 60%;
+    max-width: 800px;
     margin: 0 auto 0 auto;
     font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(71, 47, 31);
     
 }
 
 nav>ul>li {
     list-style-type: none;
-    background-color: rgb(218, 198, 172);
-    padding: 10px;
+    
+    background: linear-gradient(-20deg, rgb(125, 74, 45), rgb(71, 47, 31));
+    padding: 10px 20px 10px 20px;
     border-radius: 30px;
     text-align: center;
+    border: 1px solid black;
     
     
+    
 
 
 
+}
+#b1 {
+    box-shadow: 5px 5px;
+}
+#b2 {
+    box-shadow: 0 5px;
+}
+#b3 {
+    box-shadow: -5px 5px;
 }
 
 li>a {
@@ -83,7 +98,7 @@ li>a {
 li:hover {
     opacity: 0.8;
     cursor: pointer;
-    transform:rotateX(50deg) ;
+   
     
     
 }
@@ -102,7 +117,7 @@ h2 {
     text-align: center;
     width: 300px;
     margin: 20px auto 25px auto;
-    background-color: rgb(125, 74, 45);
+    background: linear-gradient( rgb(125, 74, 45), rgb(71, 47, 31));
     padding: 5px;
     border-radius: 30px;
     border: 1px solid black;
@@ -196,20 +211,18 @@ h2 {
 }
 
 @media only screen and (max-width: 900px) {
-    li:hover {
-        transform: scale(1)
-        
-    }
-    nav>ul>li {
-        font-size: 40px; 
-        padding-top: 10px
-    }
-    .divider-large {
-        height: 65px;
+    
+    nav>ul {
+        width: 70%;
     }
 }
 
 @media only screen and (max-width: 800px) {
+
+    nav>ul {
+        width: 80%;
+    }
+
 
     .background-image>h1,
     .background-image>p {
