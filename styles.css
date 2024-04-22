@@ -3,6 +3,7 @@
     padding: 0;
     transition-duration: 200ms;
     /* border: 1px solid; */
+    scroll-behavior: smooth;
 }
 
 .bold {
@@ -135,15 +136,17 @@ h2 {
     flex-direction: row;
     border-top: 4px solid black;
     border-bottom: 4px solid black;
+    
 }
 .images1, .images2, .images3 {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto;
     grid-auto-rows:  minmax(100px, auto);
     gap: 0.5% 0.5%;
     
 
 }
+
 
 #f_img1, #f_img3, #f_img4 {
     height: 98.5%;
