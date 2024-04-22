@@ -10,6 +10,27 @@
     font-weight: 1000;
 }
 
+.phoneBackgroundContainer {
+    display:none;
+    background-color: black;
+    padding: 5px;
+}
+.phoneBackground {
+    background-color: rgb(218, 198, 172);
+    padding: 10px;
+    padding-bottom: 12px;
+    border-radius: 60px;
+    width: 60%;
+    margin: 0 auto 0 auto;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgb(71, 47, 31);
+}
+.phoneBackground h1 {
+    background: linear-gradient(-20deg, rgb(125, 74, 45), rgb(71, 47, 31));
+    border-radius: 60px;
+    box-shadow: 0 5px;
+}
+
 .background-image>h1 {
         
     font-size: 80px;
@@ -149,35 +170,36 @@ h2 {
 
 
 #f_img1, #f_img3, #f_img4 {
-    height: 98.5%;
+    
     width: 98.5%;
-
+    margin-bottom: 2%;
 }
 
 #f_img2 {
     width: 98.5%;
     margin-top: 23%;
+    
 }
 
 #c_img3  {
-    height: 98.5%;
+    margin-bottom: 2%;
     width: 98.5%;
 
     
 }
 #c_img2 {
-    height: 98.5%;
+    margin-bottom: 2%;
     width: 98.5%;
     margin-left: 50%;
     grid-row-start: 2;
 }
 #c_img1 {
     width: 98.5%;
-    
+    margin-bottom: 2%;
 }
 
 #m_img1,  #m_img2 {
-    height: 98.5%;
+    margin-bottom: 2%;
     width: 98.5%;
 
 }
@@ -185,6 +207,10 @@ h2 {
     width: 150%;
     margin-left: 30%;
     
+    
+}
+.imageBorder {
+    border: 2px solid white;
 }
 
 
@@ -225,21 +251,24 @@ h2 {
     nav>ul {
         width: 80%;
     }
+    nav>ul>li {
+        font-size: 22px;
+    }
 
+    #bigTitle, #bigParagraph {
+        display: none;
+    }
+    .phoneBackgroundContainer {
+        display: block;
+    }
 
-    .background-image>h1,
-    .background-image>p {
-        margin-top: 25px;
-        margin-bottom: -20px;
-        margin-left: 90px;
-        
-    }
-    .background-image>h1{
-        font-size: 60px;
-    }
-    .background-image>p {
-        font-size: 21px
-    }
-    
 }
 
+
+@media only screen and (max-width: 600px) {
+
+    
+    nav>ul>li {
+        font-size: 16px;
+    }
+}
