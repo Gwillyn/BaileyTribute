@@ -12,10 +12,9 @@
 
 .phoneBackgroundBorder {
     display:none;
-    background-color: rgb(218, 198, 172);
+    background-color: transparent;
     padding: 5px;
     padding-top: 0;
-    border-bottom: 4px solid black;
     border-top: 4px solid black;
     
     
@@ -30,12 +29,14 @@
     margin: 0 auto 0 auto;
     font-size: 30px;
     text-shadow: 1px 1px 1px rgb(71, 47, 31);
+    
 }
 .phoneBackground h1 {
     background: linear-gradient(-20deg, rgb(125, 74, 45), rgb(71, 47, 31));
     border-radius: 0px 0px 60px 60px;
     box-shadow: 0 5px;
     padding-bottom: 5px;
+    
 }
 
 .background-image>h1 {
@@ -127,7 +128,7 @@ li>a {
 
 
 li:hover {
-    transform: scale(120%);
+    transform: scale(105%);
     cursor: pointer;
 
 }
@@ -135,7 +136,7 @@ li:hover {
 .background-image {
     height: 100vw;
     max-width: 100%;
-    background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihZE5a7a-BEAntbTSs70QHsNQ_KW5im9wAg6CoK9v8IvnNCnYc4GsEMt4hjzW_DG8IeJyT6ItScHSy0eZoxJFgb-AOgUonsx2_U=s1600-rw-v1");
+    background-image: url('./images/IMG_6625.JPG');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -162,7 +163,7 @@ h2 {
     display: flex;
     margin: 0 auto 0 auto;
     flex-direction: row;
-    border-top: 4px solid black;
+   
     border-bottom: 4px solid black;
     
 }
